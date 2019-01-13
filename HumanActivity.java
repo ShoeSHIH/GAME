@@ -3,6 +3,8 @@ package com.example.user.game;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 private Hunter Hunter = new Hunter();
+private Warrior Warrior = new Warrior();
+private Mage Mage = new Mage();
 public class HumanActivity extends AppCompatActivity {
 
     public class Human {
