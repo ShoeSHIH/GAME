@@ -18,6 +18,11 @@ public class Hunter extends HumanActivity.Human {
     public final static int fireBow = 2 ;
     public final static int iceBow = 3 ;
     public hunter () {
+        System.out.println("Defeat Enemy");
+    }
+    public hunter (Int num){
+        num = 5;
+        return;
     }
     public void attack () {
         System. out .println( "Fist Attack!" ) ;

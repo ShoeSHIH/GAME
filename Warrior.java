@@ -18,6 +18,11 @@ public class Warrior extends HumanActivity.Human{
         public final static int FireBlade = 2 ;
         public final static int IceBlade = 3 ;
         public warrior () {
+                System.out.println("I'm the strongist person");
+        }
+        public hunter (Int num){
+                num = 5;
+                return;
         }
         public void attack () {
             System. out .println( "Fist Attack!" ) ;
